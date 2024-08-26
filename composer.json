@@ -1,0 +1,25 @@
+{
+    "name": "stormforcejj/seatminingapi",
+    "description": "Module to get character mining ledger as api endpoint",
+    "type": "plugin",
+    "require": {
+        "eveseat/api": "^5.0.0",
+        "eveseat/eveapi": "^5.0.14",
+        "eveseat/web": "^5.0.14",
+        "eveseat/services": "^5.0",
+        "ext-json": "*",
+        "pe/component-process": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stormforcejj\\Seatminingapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "James",
+            "email": "contact@stormforcejj.co.uk"
+        }
+    ],
+    "minimum-stability": "alpha"
+}
